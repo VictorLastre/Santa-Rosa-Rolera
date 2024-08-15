@@ -21,14 +21,14 @@ const Events = () => {
             <img src={event_2} alt="" />
             <div className='caption'>
                 <img src={evento_pathfinder_logo} alt="" />
-                <p>Evento 1</p>
+                <p>Evento 2</p>
             </div>
         </div>      
         <div className='event'>
             <img src={event_3} alt="" />
             <div className='caption'>
                 <img src={evento_cthulhu_logo} alt="" />
-                <p>Evento 1</p>
+                <p>Evento 3</p>
             </div>
         </div>      
              

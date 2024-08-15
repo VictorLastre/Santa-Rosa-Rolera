@@ -20,15 +20,21 @@ a{
 .btn{
   background: #FFF;
   color: #212121;
-  padding: 14px 25px;
-  font-size: 30px;
+  padding: 10px 20px;
+  font-size: 20px;
   border-radius: 30px;
   cursor: pointer;
   border: 0;
   outline: 0;
   display: inline-flex;  
+  align-items: center;
+  justify-content: center;
 }
 .btn img{
-  width: 75px;
+  width: 55px;
   margin-left: 10px;
+}
+.dark-btn{
+  background: #212EA0;
+  color: #fff;
 }
