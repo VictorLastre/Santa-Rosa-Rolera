@@ -3,8 +3,8 @@ import './Testimonials.css'
 import next_img from '../../assets/next.png'
 import back_img from '../../assets/back.png'
 import dnd from '../../assets/DnDLogo.png'
-import cthulhu from '../../assets/call-of-cthulhu.png'
-import lancer from '../../assets/lancer.jpg'
+import cthulhu from '../../assets/Tutulu.png'
+import lancer from '../../assets/LancerLogoNegro.png'
 import wh_fantasy from '../../assets/Warhammer_Logo.png'
 import vampiro from '../../assets/VampiroLogo.png'
 
@@ -72,7 +72,9 @@ const Testimonials = () => {
                         </div>
                     </div>
                     <p>
-                    Lancer es un juego de rol de mesa que se centra en las narrativas compartidas, los mechas personalizables y los pilotos que los manejan. El juego est� ambientado en un futuro en el que la humanidad ha sobrevivido a un colapso ecol�gico en la Tierra y se ha esparcido hasta las estrellas.
+                        Lancer es un juego de rol de mesa que se centra en las narrativas compartidas, los mechas personalizables y los pilotos que los manejan. 
+                        El juego está ambientado en un futuro en el que la humanidad ha sobrevivido a un colapso ecológico en la Tierra y se ha esparcido hasta 
+                        las estrellas.
                     </p>
                 </div>
             </li>
