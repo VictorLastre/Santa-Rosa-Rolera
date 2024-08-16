@@ -44,16 +44,16 @@ const Contact = () => {
             <ul>
                 <li><img src={email} alt="" />algo@gmail.com</li>
                 <li><img src={mobile_phone} alt="" />+54 2954-123456</li>
-                <li><img src={location} alt="" />Calle sin nombre, sin numero <br />Santa Rosa La Pampa Argentina</li>
+                <li><img src={location} alt="" />Calle sin nombre, sin n√∫mero <br />Santa Rosa La Pampa Argentina</li>
             </ul>
         </div>
         <div className='contact-col'>
           <form onSubmit={onSubmit}>
             <label>Nombre</label>
             <input type="text" name='name' placeholder='Tu nombre' required />
-            <label>TelÈfono</label>
-            <input type="tel" name='telefono' placeholder='Tu n˙mero de telÈfono' required />
-            <label>Escribe tu mensaje aquÌ</label>
+            <label>Tel√©fono</label>
+            <input type="tel" name='telefono' placeholder='Tu n√∫mero de tel√©fono' required />
+            <label>Escribe tu mensaje aqu√≠</label>
             <textarea name="mensaje" rows="6" required ></textarea>
             <button type='submit' className='btn dark-btn'>Enviar ahora <img src={white_arrow} alt="" /></button>
           </form>

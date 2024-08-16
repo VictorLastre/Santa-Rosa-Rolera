@@ -11,11 +11,29 @@ const About = ({setPlayState}) => {
             <img src={play_logo} alt="" className='play-icon' onClick={()=>{setPlayState(true)}}/>
         </div>
         <div className='about-right'>
-            <h3>SOBRE ASOCIACIoN DE ROL LA PAMPA</h3>
-            <h2>Lorem Ipum</h2>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-            <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
-            <p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p>
+            <h3>SOBRE ASOCIACIÓN DE ROL LA PAMPA</h3>
+            <h2>Este hobby que buscamos promover, posee numerosos beneficios, entre ellos:</h2>            
+            <p>
+              Ayuda a desarrollar la confianza en uno mismo, impulsa la creatividad, promueve la interacción entre las personas, etc. 
+              Esto se debe a que dentro del juego se van generando situaciones que te piden trabajar en equipo, tomar diversas perspectivas 
+              y crear soluciones a problemas con los recursos disponibles en cada escena. Además si te interesa el mundo de la actuación, 
+              teatro, locución o si también tienes interés en la escritura y la narrativa, o si incluso sólo quieres pasar un buen rato y 
+              reírte con amigos, estos juegos pueden ser ideales para tí.
+            </p>
+            <p>
+              Hay aventuras y sistemas para todas las edades. Para niños, hay sistemas simplificados y abiertos, en donde puede haber desafíos 
+              acorde a su perspectiva; como salvar un gato, recuperar un juguete extraviado o incluso aventurarse en un castillo o el espacio 
+              exterior con el fin de descubrir maravillas. Para jóvenes y adultos, existen sistemas más y menos complejos, con mas o menos reglas, 
+              en dónde se pueden encontrar aventuras de fantasía medieval, contempóraneas, galácticas, post apocalipticas, etc. Estas, a su vez, 
+              pueden disponer de cualquier tono que deseen los jugadores, desde un tono ligero y suave, dónde sientes que el mundo te ayuda a 
+              obtener lo que deseas y ser el héroe que siempre soñaste o al contrario, un tono oscuro y abrasivo, dónde sientes que el universo 
+              conspira en tu contra poniéndote desafíos cada vez más difíciles, donde la esperanza, o quizá la codicia sea lo que te lleva adelante. 
+              El único limitante para todo esto es la imaginación.
+            </p>
+            <p>
+              Se trata de un pasatiempo en el que no se necesitan pantallas, sólo mucha imaginación y ganas de jugar (además de papel, lápiz y 
+              algunos dados). ¡Ideal para jugar entre familia, con amigos o para conocer gente nueva!
+            </p>
         </div>      
     </div>
   )

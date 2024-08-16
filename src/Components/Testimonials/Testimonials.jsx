@@ -2,10 +2,11 @@ import React, { useRef } from 'react';
 import './Testimonials.css'
 import next_img from '../../assets/next.png'
 import back_img from '../../assets/back.png'
-import dnd from '../../assets/dnd_logo.png'
+import dnd from '../../assets/DnDLogo.png'
 import cthulhu from '../../assets/call-of-cthulhu.png'
 import lancer from '../../assets/lancer.jpg'
-import wh_fantasy from '../../assets/wh-fantasy.jpg'
+import wh_fantasy from '../../assets/Warhammer_Logo.png'
+import vampiro from '../../assets/VampiroLogo.png'
 
 const Testimonials = () => {
 
@@ -42,8 +43,8 @@ const Testimonials = () => {
                         </div>
                     </div>
                     <p>
-                    Es un juego de rol de fantasía heroica en el que los jugadores crean historias en mundos de espada y brujería.  <br />
-                    Los jugadores se ponen en la piel de poderosos héroes o antihéroes y se enfrentan a monstruos, objetos mágicos y diversas situaciones.
+                    Es un juego de rol de fantasÃ­a heroica en el que los jugadores crean historias en mundos de espada y brujerÃ­a.  <br />
+                    Los jugadores se ponen en la piel de poderosos hÃ©roes o antihÃ©roes y se enfrentan a monstruos, objetos mÃ¡gicos y diversas situaciones.
                     </p>
                 </div>
             </li>
@@ -53,11 +54,11 @@ const Testimonials = () => {
                         <img src={cthulhu} alt="" />
                         <div>
                             <h3>La Llamada de Cthulhu</h3>
-                            <span>Horror cósmico</span>
+                            <span>Horror cÃ³smico</span>
                         </div>
                     </div>
                     <p>
-                    es un juego de rol de horror ambientado en los años veinte y en particular en los «mitos de Cthulhu», universo de ficción iniciado por el escritor estadounidense Howard Phillips Lovecraft. 
+                    Es un juego de rol de horror ambientado en los aÃ±os veinte y en particular en los mitos de Cthulhu, universo de ficciÃ³n iniciado por el escritor estadounidense Howard Phillips Lovecraft. 
                     </p>
                 </div>
             </li>
@@ -67,11 +68,11 @@ const Testimonials = () => {
                         <img src={lancer} alt="" />
                         <div>
                             <h3>Lancer</h3>
-                            <span>ciencia ficción militar</span>
+                            <span>ciencia ficciÃ³n militar</span>
                         </div>
                     </div>
                     <p>
-                    Lancer es un juego de rol de mesa que se centra en las narrativas compartidas, los mechas personalizables y los pilotos que los manejan. El juego está ambientado en un futuro en el que la humanidad ha sobrevivido a un colapso ecológico en la Tierra y se ha esparcido hasta las estrellas.
+                    Lancer es un juego de rol de mesa que se centra en las narrativas compartidas, los mechas personalizables y los pilotos que los manejan. El juego estï¿½ ambientado en un futuro en el que la humanidad ha sobrevivido a un colapso ecolï¿½gico en la Tierra y se ha esparcido hasta las estrellas.
                     </p>
                 </div>
             </li>
@@ -85,8 +86,22 @@ const Testimonials = () => {
                         </div>
                     </div>
                     <p>
-                    Es un juego de rol de fantasía que te lleva al Viejo Mundo, un lugar oscuro y traicionero donde el caos acecha en cada esquina. 
-                    En el juego, reúnes una banda, creas tus héroes y te abres paso a través de corrupciones, conspiradores y criaturas terroríficas.
+                    Es un juego de rol de fantasÃ­a que te lleva al Viejo Mundo, un lugar oscuro y traicionero donde el caos acecha en cada esquina. 
+                    En el juego, reÃºnes una banda, creas tus hÃ©roes y te abres paso a travÃ©s de corrupciones, conspiradores y criaturas terrorÃ­ficas.
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div className='slide'>
+                    <div className='user-info'>
+                        <img src={vampiro} alt="" />
+                        <div>
+                            <h3>Vampiro la mascarada</h3>
+                            <span>Fantasia heroica oscura</span>
+                        </div>
+                    </div>
+                    <p>
+                        Es un juego de rol donde personificas al monstruo, te enfrentas a las dificultades que tiene el mundo moderno asÃ­ como tambiÃ©n las del mundo vampÃ­rico. Debes cuidar tu identidad para no romper La Mascarada, a la vez que resuelves misterios, enigmas y tratas de no perder la poca humanidad que te queda.                    
                     </p>
                 </div>
             </li>
