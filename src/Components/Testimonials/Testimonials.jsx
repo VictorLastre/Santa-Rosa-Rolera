@@ -3,7 +3,7 @@ import './Testimonials.css'
 import next_img from '../../assets/next.png'
 import back_img from '../../assets/back.png'
 import dnd from '../../assets/dnd_logo.png'
-import cthulhu from '../../assets/call-of-cthulhu.jpg'
+import cthulhu from '../../assets/call-of-cthulhu.png'
 import lancer from '../../assets/lancer.jpg'
 import wh_fantasy from '../../assets/wh-fantasy.jpg'
 
