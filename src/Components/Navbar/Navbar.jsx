@@ -24,11 +24,11 @@ const Navbar = () => {
         <img src={logo} alt="" className='logo' /> 
         <ul className={mobileMenu?'':'hide-mobile-menu'}>
             <li><Link to='hero' smooth={true} offset={0} duration={500}>Home</Link></li>
-            <li><Link to='about' smooth={true} offset={-80} duration={500}>Sobre Nosotros</Link></li>
-            <li><Link to='events' smooth={true} offset={-210} duration={500}>Eventos</Link></li>
-            <li><Link to='campus' smooth={true} offset={-210} duration={500}>Galeria</Link></li>
-            <li><Link to='testimonials' smooth={true} offset={-210} duration={500}>Sistemas</Link></li>
-            <li><Link to='contact' smooth={true} offset={-210} duration={500} className='btn'>Contactanos</Link></li>
+            <li><Link to='about' smooth={true} offset={-70} duration={500}>Sobre Nosotros</Link></li>
+            <li><Link to='events' smooth={true} offset={-230} duration={500}>Eventos</Link></li>
+            <li><Link to='campus' smooth={true} offset={-230} duration={500}>Galeria</Link></li>
+            <li><Link to='testimonials' smooth={true} offset={-230} duration={500}>Sistemas</Link></li>
+            <li><Link to='contact' smooth={true} offset={-230} duration={500} className='btn'>Contactanos</Link></li>
         </ul>
         <img src={menu_icon} alt="" className='menu-icon' onClick={toggleMenu} />
     </nav>
