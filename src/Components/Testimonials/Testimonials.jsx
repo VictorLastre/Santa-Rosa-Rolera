@@ -2,10 +2,10 @@ import React, { useRef } from 'react';
 import './Testimonials.css'
 import next_img from '../../assets/next.png'
 import back_img from '../../assets/back.png'
-import user_1 from '../../assets/user-1.jpg'
-import user_2 from '../../assets/user-2.jpg'
-import user_3 from '../../assets/user-3.jpg'
-import user_4 from '../../assets/user-4.jpg'
+import dnd from '../../assets/dnd_logo.png'
+import cthulhu from '../../assets/call-of-cthulhu.jpg'
+import lancer from '../../assets/lancer.jpg'
+import wh_fantasy from '../../assets/wh-fantasy.jpg'
 
 const Testimonials = () => {
 
@@ -35,49 +35,59 @@ const Testimonials = () => {
             <li>
                 <div className='slide'>
                     <div className='user-info'>
-                        <img src={user_1} alt="" />
+                        <img src={dnd} alt="" />
                         <div>
-                            <h3>Sujeto 1</h3>
-                            <span>Santa Rosa</span>
+                            <h3>Dungeons and Dragons</h3>
+                            <span>Fantasia heroica</span>
                         </div>
                     </div>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <p>
+                    Es un juego de rol de fantasía heroica en el que los jugadores crean historias en mundos de espada y brujería.  <br />
+                    Los jugadores se ponen en la piel de poderosos héroes o antihéroes y se enfrentan a monstruos, objetos mágicos y diversas situaciones.
+                    </p>
                 </div>
             </li>
             <li>
                 <div className='slide'>
                     <div className='user-info'>
-                        <img src={user_2} alt="" />
+                        <img src={cthulhu} alt="" />
                         <div>
-                            <h3>Sujeto 2</h3>
-                            <span>Toay</span>
+                            <h3>La Llamada de Cthulhu</h3>
+                            <span>Horror cósmico</span>
                         </div>
                     </div>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <p>
+                    es un juego de rol de horror ambientado en los años veinte y en particular en los «mitos de Cthulhu», universo de ficción iniciado por el escritor estadounidense Howard Phillips Lovecraft. 
+                    </p>
                 </div>
             </li>
             <li>
                 <div className='slide'>
                     <div className='user-info'>
-                        <img src={user_3} alt="" />
+                        <img src={lancer} alt="" />
                         <div>
-                            <h3>Sujeto 3</h3>
-                            <span>Santa Rosa</span>
+                            <h3>Lancer</h3>
+                            <span>ciencia ficción militar</span>
                         </div>
                     </div>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <p>
+                    Lancer es un juego de rol de mesa que se centra en las narrativas compartidas, los mechas personalizables y los pilotos que los manejan. El juego está ambientado en un futuro en el que la humanidad ha sobrevivido a un colapso ecológico en la Tierra y se ha esparcido hasta las estrellas.
+                    </p>
                 </div>
             </li>
             <li>
                 <div className='slide'>
                     <div className='user-info'>
-                        <img src={user_4} alt="" />
+                        <img src={wh_fantasy} alt="" />
                         <div>
-                            <h3>Sujeto 4</h3>
-                            <span>general pico</span>
+                            <h3>Warhammer Fantasy</h3>
+                            <span>Fantasia heroica oscura</span>
                         </div>
                     </div>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <p>
+                    Es un juego de rol de fantasía que te lleva al Viejo Mundo, un lugar oscuro y traicionero donde el caos acecha en cada esquina. 
+                    En el juego, reúnes una banda, creas tus héroes y te abres paso a través de corrupciones, conspiradores y criaturas terroríficas.
+                    </p>
                 </div>
             </li>
         </ul>        
