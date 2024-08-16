@@ -101,7 +101,7 @@ const Testimonials = () => {
                         </div>
                     </div>
                     <p>
-                    Vampiro es un juego de rol donde personificas al monstruo, te enfrentas a las dificultades que tiene el mundo moderno así como también las del mundo vampírico. Debes cuidar tu identidad para no romper La Mascarada, a la vez que resuelves misterios, enigmas y tratas de no perder la poca humanidad que te queda.
+                    Es un juego de rol donde personificas al monstruo, te enfrentas a las dificultades que tiene el mundo moderno así como también las del mundo vampírico. Debes cuidar tu identidad para no romper La Mascarada, a la vez que resuelves misterios, enigmas y tratas de no perder la poca humanidad que te queda.
                     </p>
                 </div>
             </li>
