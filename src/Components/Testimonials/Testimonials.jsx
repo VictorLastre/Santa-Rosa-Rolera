@@ -43,8 +43,8 @@ const Testimonials = () => {
                         </div>
                     </div>
                     <p>
-                    Es un juego de rol de fantasía heroica en el que los jugadores crean historias en mundos de espada y brujería.  <br />
-                    Los jugadores se ponen en la piel de poderosos héroes o antihéroes y se enfrentan a monstruos, objetos mágicos y diversas situaciones.
+                    Es un juego de rol de fantasía heroica en el que los jugadores crean historias en mundos de espada y magia.
+                    Los jugadores se ponen en la piel de poderosos héroes o antihéroes enfrentándose a calabozos, monstruos, trampas, dragones y un sinfín más de situaciones. El grupo coopera y avanza con el fin de subir de nivel, obtener tesoros y fantásticos objetos mágicos.
                     </p>
                 </div>
             </li>
@@ -72,9 +72,7 @@ const Testimonials = () => {
                         </div>
                     </div>
                     <p>
-                        Lancer es un juego de rol de mesa que se centra en las narrativas compartidas, los mechas personalizables y los pilotos que los manejan. 
-                        El juego está ambientado en un futuro en el que la humanidad ha sobrevivido a un colapso ecológico en la Tierra y se ha esparcido hasta 
-                        las estrellas.
+                    Es un juego de rol que se centra en las narrativas compartidas, los mechas personalizables y los pilotos que los manejan. El juego está ambientado en un futuro en el que la humanidad ha sobrevivido a un colapso ecológico en la Tierra y hemos esparcido nuestra presencia por todo el Brazo de Orión de la galaxia. La expansión, la exploración y la búsqueda por vida inteligente sigue en curso.
                     </p>
                 </div>
             </li>
@@ -88,8 +86,7 @@ const Testimonials = () => {
                         </div>
                     </div>
                     <p>
-                    Es un juego de rol de fantasía que te lleva al Viejo Mundo, un lugar oscuro y traicionero donde el caos acecha en cada esquina. 
-                    En el juego, reúnes una banda, creas tus héroes y te abres paso a través de corrupciones, conspiradores y criaturas terroríficas.
+                    Es un juego de rol de fantasía oscurra que te lleva al Viejo Mundo, un lugar tenebroso, abrasivo y traicionero, donde el caos acecha en cada esquina. En el juego, crean a sus héroes, los reúnen en una banda y se abren paso a través de corrupciones, conspiradores y criaturas terroríficas con la esperanza de que alguno sobreviva y marcar una diferencia.
                     </p>
                 </div>
             </li>
@@ -99,11 +96,11 @@ const Testimonials = () => {
                         <img src={vampiro} alt="" />
                         <div>
                             <h3>Vampiro la mascarada</h3>
-                            <span>Fantasia heroica oscura</span>
+                            <span>Fantasía Contemporánea</span>
                         </div>
                     </div>
                     <p>
-                        Es un juego de rol donde personificas al monstruo, te enfrentas a las dificultades que tiene el mundo moderno así como también las del mundo vampírico. Debes cuidar tu identidad para no romper La Mascarada, a la vez que resuelves misterios, enigmas y tratas de no perder la poca humanidad que te queda.                    
+                    Vampiro es un juego de rol donde personificas al monstruo, te enfrentas a las dificultades que tiene el mundo moderno así como también las del mundo vampírico. Debes cuidar tu identidad para no romper La Mascarada, a la vez que resuelves misterios, enigmas y tratas de no perder la poca humanidad que te queda.
                     </p>
                 </div>
             </li>
