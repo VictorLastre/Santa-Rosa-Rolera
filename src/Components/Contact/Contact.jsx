@@ -44,7 +44,7 @@ const Contact = () => {
             <ul>
                 <li><img src={email} alt="" />algo@gmail.com</li>
                 <li><img src={mobile_phone} alt="" />+54 2954-123456</li>
-                <li><img src={location} alt="" />Calle sin nombre, sin munero <br />Santa Rosa La Pampa Argantina</li>
+                <li><img src={location} alt="" />Calle sin nombre, sin numero <br />Santa Rosa La Pampa Argentina</li>
             </ul>
         </div>
         <div className='contact-col'>
