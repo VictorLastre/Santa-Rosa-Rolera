@@ -58,7 +58,8 @@ const Testimonials = () => {
                         </div>
                     </div>
                     <p>
-                    Es un juego de rol de horror ambientado en los años veinte y en particular en los mitos de Cthulhu, universo de ficción iniciado por el escritor estadounidense Howard Phillips Lovecraft. 
+                        Es un juego de rol de horror ambientado en los años veinte y en particular en los mitos de Cthulhu, universo de ficción iniciado por el escritor estadounidense Howard Phillips Lovecraft.
+                        En este, encarnaremos un grupo de investigadores que se enfrentan a sucesos sobrenaturales mucho más allá de la comprensión humana, incluso pudiendo perder la cordura.
                     </p>
                 </div>
             </li>
